@@ -102,3 +102,9 @@ description h3 {
 description p {
   font-size: 16px;
 }
+
+.results {
+  background-color: #ffffff;
+  height: 300px;
+  font-size: xxx-large;
+}

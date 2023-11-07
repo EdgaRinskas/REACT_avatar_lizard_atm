@@ -8,6 +8,8 @@ import HeaderTwo from './HeaderTwo';
 import Results from './Results';
 import HeaderThree from './HeaderThree';
 import ATM from './ATM';
+import UserInput from './UserInput';
+import Avatar from './Avatar';
 
 function App() {
   return (
