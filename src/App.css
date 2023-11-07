@@ -8,21 +8,6 @@
   padding: 50px;
 }
 
-/* Additional styles for Container-1 if needed */
-.container-1 {
-  /* Additional styles for Container-1 if needed */
-}
-
-/* Additional styles for Container-2 if needed */
-.container-2 {
-  /* Additional styles for Container-2 if needed */
-}
-
-/* Additional styles for Container-3 if needed */
-.container-3 {
-  /* Additional styles for Container-3 if needed */
-}
-
 /* Styles for Header-One, Header-Two, and Header-Three */
 .header-one,
 .header-two,
@@ -34,6 +19,7 @@
   color: #ffffff;
   padding: 10px 20px;
   margin-bottom: 20px;
+  position: relative; /* Add relative positioning to the parent element */
 }
 
 .header-one button,
@@ -41,37 +27,43 @@
 .header-three button {
   background-color: #6a11f5;
   border-radius: 40px;
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 80px;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  position: relative; /* Add relative positioning to the button */
 }
 
-/* Additional styles for the logo link if needed */
-.header-one a,
-.header-two a,
-.header-three a {
-  /* Additional styles for the logo link if needed */
-}
-
-/* Styles for Card component */
-.card {
-  /* Define styles for the Card component */
+/* Position the .task-button-header on top of .header-one button */
+.task-button-header {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 /* Styles for TextBox component */
 .textBox {
-  /* Define styles for the TextBox component */
+  color: #ffffff;
 }
 
-/* Styles for Lizard component */
-.lizard {
-  /* Define styles for the Lizard component */
+/* Styles for Lizard image */
+.lizard-image {
+  width: 670px;
 }
 
-/* Styles for Description component */
-.description {
-  /* Define styles for the Description component */
+/* Styles for Lizard component with frame */
+.lizard-box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 10px solid #e8ebf0;
+  text-align: center;
+  width: 670px;
 }
 
 /* Styles for Avatar component */
@@ -99,4 +91,22 @@
   /* Define styles for the ATM Monitor component */
 }
 
-/* Additional classes and styles can be defined as needed */
+/* Styles for Description component with frame */
+.description {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  width: 670px;
+}
+
+description h3 {
+  font-size: 24px;
+}
+
+description p {
+  font-size: 16px;
+}
