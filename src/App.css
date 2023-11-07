@@ -66,29 +66,21 @@
   width: 670px;
 }
 
-/* Styles for Avatar component */
-.avatar {
-  /* Define styles for the Avatar component */
+.withdraw-buttons button,
+.bring-in-buttons button
+ {
+  width: 150px;
+  height: 100px;
 }
 
-/* Styles for Results component */
-.results {
-  /* Define styles for the Results component */
+.withdraw-everything {
+  width: 200px;
+  height: 100px;
 }
 
-/* Define styles for the ellipse in Results */
-.ellipse {
-  /* Define styles for the ellipse in Results */
-}
-
-/* Styles for ATM component */
-.atm {
-  /* Define styles for the ATM component */
-}
-
-/* Styles for ATM Monitor component */
-.atm-monitor {
-  /* Define styles for the ATM Monitor component */
+.input-placeholder {
+  width: 200px;
+  height: 100px;
 }
 
 /* Styles for Description component with frame */

@@ -1,11 +1,10 @@
-// ATM.jsx
 import React from 'react';
-import ATMmonitor from './ATMmonitor';
+import ATMbuttons from './ATMbuttons';
 
 const ATM = () => {
   return (
-    <div className="atm">
-      <ATMmonitor />
+    <div className="ATM">
+      <ATMbuttons />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import HeaderOne from './HeaderOne';
 import Content1 from './Content1';
+import Content3 from './Content3';
 import HeaderTwo from './HeaderTwo';
 import Results from './Results';
 import HeaderThree from './HeaderThree';
