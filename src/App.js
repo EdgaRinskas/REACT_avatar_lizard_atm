@@ -10,6 +10,8 @@ import HeaderThree from './HeaderThree';
 import ATM from './ATM';
 import UserInput from './UserInput';
 import Avatar from './Avatar';
+import Content4Fetch from './Content4Fetch';
+import HeaderFour from './HeaderFour';
 
 function App() {
   return (
@@ -20,11 +22,15 @@ function App() {
       </div>
       <div className="container-2">
         <HeaderTwo />
-        <Results name="John Doe" />
+        <Results name="Giselle D'ark" />
       </div>
       <div className="container-3">
         <HeaderThree />
         <ATM />
+      </div>
+      <div className="container-4">
+        <HeaderFour />
+        <Content4Fetch />
       </div>
     </div>
   );
